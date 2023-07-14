@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Montserat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .center {
@@ -13,12 +13,95 @@ body {
 }
 
 .top {
-    width: 1440px;
     height: 1024px;
     background-image: url(imgHW1/top.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    border-bottom: transparent;
 }
 
+.top_title {
+    width: 788.78px;
+    height: 125.01px;
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 120.22px;
+    padding-top: 217.1px;
+    padding-bottom: 32px;
+}
+
+
+.top_text {
+    width: 481px;
+    height: 64px;
+font-size: 18px;
+font-weight: 300;
+font-style: normal;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;
+padding-left: 120.22px;
+padding-bottom: 44px;
+}
+
+.top_link {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    }
+
+    .top_btn {
+        width: 234.06px;
+        height: 48.6px;
+        border-radius: 30px;
+        background-color: #9C0332;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-left: 120px;
+        margin-bottom: 493.29px;
+    }
+
+.game-box {
+    background-image: url(imgHW1/gamebox.jpg);
+}
+    
+    .game_content {
+        display: flex;
+        gap: 32px;
+        grid-template-columns: repeat(12, 1fr);
+        padding-top: 128px;
+        padding-left: 120px;
+        padding-bottom: 128px;
+    }
+
+    .game_item {
+        width: 379px;
+        height: 300px;
+        border-radius: 16px;
+    }
+
+    .game_item_1 {
+    background-image: url(imgHW1/game1.jpg);
+    grid-column: span 4;
+    }
+
+    .game_item_2 {
+    background-image: url(imgHW1/game2.jpg);
+    grid-column: span 4;
+    }
+
+    .game_item_3 {
+    background-image: url(imgHW1/game3.jpg);
+    grid-column: span 4;
+    }
