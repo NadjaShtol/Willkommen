@@ -24,31 +24,44 @@ alert(result);
 
 let a = 9;
 let b = 2;
-const result = a % b;
-alert (const result); //НЕ ПОЛУЧАЕТСЯ!
+const result = a % b; // почему резалт подчеркнутткрасным?
+alert (result); //НЕ ПОЛУЧАЕТСЯ!
 
 let num = 1;
-num = 1 + 5;
-num = 1 - 3;
-num = 1 * 7;
-num = 1 / 3;
+7 = 1++ + 5;
+4 = 1-- - 3;
+21 = 1-- * 7;
+num = --1 / 3;
 num = 1 + 1;
 num = 1 - 1;
-alert(num);
+alert(num);  // Так надо решать?
 
+// задание 8
 let age = prompt("Сколько вам лет?");
 alert(age);
 
-const user = {
-    name: "Nadja",
-    age: 18,
-    isAdmin = true,
-}    // НЕ ЗНАЮ, КАКОЕ РЕШЕНИЕ ПРАВИЛЬНО ПРО ОБЪЕКТ
-
-let user = prompt("Введите ваше имя?");
+// задание 9,0
+let name = prompt("Введите ваше имя?");
 let age = Number( prompt("Сколько вам лет?"));
-let isAdmin = (Добро пожаловать на сайт ${user} вам ${age} лет?);
+let isAdmin = true;
 
+//задание 9,1
+object['name of property'] = value;
+
+// задание 9,2
+object.property = new_value;
+
+// задание 9,3
+delete ['name of property'];
+
+// задание 9,4
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+info = name;
+info = age;
+info = isAdmin;
+alert(info);
+
+// задание 10
 let name = prompt("Как вас зовут?");
 alert(`Привет, ${name}"!"`);
 

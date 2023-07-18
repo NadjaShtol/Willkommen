@@ -5,28 +5,29 @@
         padding-right: 16px;
     }
 
-    .top_title {
-        width: 343px;
-        height: 77.44px;
-        font-size: 32px;
-        text-align: center;
-        &_text {
+    .top {
+        grid-template-columns: repeat(4, 1fr);
+        &_title {
+            grid-column: 1/-1;
             width: 343px;
-            font-size: 14px;
+            font-size: 32px;
+            text-align: center;
+            &_text {
+                width: 343px;
+                font-size: 14px;
+                text-align: center;
+            }
         }
     }
     
-    
+
     .game_content {
         grid-template-columns: repeat(4, 1fr);
         &_item {
         grid-column: 1/-1;
         width: 343px;
         }
-    }
+    }  
 
-    
-    
     
 }
-
