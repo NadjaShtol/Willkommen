@@ -24,8 +24,7 @@ alert(result);
 
 let a = 9;
 let b = 2;
-const result = a % b; // почему резалт подчеркнутткрасным?
-alert (result); //НЕ ПОЛУЧАЕТСЯ!
+alert = a % b; 
 
 let num = 1;
 7 = 1++ + 5;
@@ -41,25 +40,25 @@ let age = prompt("Сколько вам лет?");
 alert(age);
 
 // задание 9,0
-let name = prompt("Введите ваше имя?");
-let age = Number( prompt("Сколько вам лет?"));
-let isAdmin = true;
+const user = {
+    name: 'Nadja',
+    age: 18,
+    isAdmin: true
+}
+
 
 //задание 9,1
-object['name of property'] = value;
+user.cityofresidence = true;
 
 // задание 9,2
-object.property = new_value;
+user.language = new_value;
 
 // задание 9,3
-delete ['name of property'];
+delete user.cityofresidence
 
 // задание 9,4
 let info = prompt("Какую информацию хотите узнать о пользователе?");
-info = name;
-info = age;
-info = isAdmin;
-alert(info);
+alert(user[info]);
 
 // задание 10
 let name = prompt("Как вас зовут?");
