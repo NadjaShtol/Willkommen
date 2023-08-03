@@ -82,32 +82,19 @@ body {
 }
 
 .game_content {
-    display: flex;
+    display: grid;
     gap: 32px;
     grid-template-columns: repeat(12, 1fr);
     padding-top: 128px;
-    padding-left: 120px;
     padding-bottom: 128px;
 
     &_item {
-        width: 379px;
-        height: 300px;
         border-radius: 16px;
     }
 
-    &_item_1 {
-        background-image: url(imgHW1/game1.jpg);
-        grid-column: span 4;
-    }
-
-    &_item_2 {
-        background-image: url(imgHW1/game2.jpg);
-        grid-column: span 4;
-    }
-
-    &_item_3 {
-        background-image: url(imgHW1/game3.jpg);
-        grid-column: span 4;
+    &_img {
+        width: 379px;
+        height: 300px;
     }
 }
 
