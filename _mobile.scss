@@ -6,19 +6,27 @@
     }
 
     .top {
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         &_title {
             grid-column: 1/-1;
             width: 343px;
             font-size: 32px;
             text-align: center;
+            padding-left: 0px;
+        }
 
-            &_text {
-                width: 343px;
-                font-size: 14px;
-                text-align: center;
-            }
+        &_text {
+            width: 343px;
+            font-size: 14px;
+            text-align: center;
+            padding-left: 0px;
+        }
+
+        &_btn {
+            margin-left: 0px;
         }
     }
 
@@ -33,6 +41,7 @@
         &_img {
             width: 343px;
             height: 300px;
+            border-radius: 16px;
         }
     }
 

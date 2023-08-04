@@ -28,13 +28,14 @@ let b = 2;
 alert = a % b; 
 
 let num = 1;
-6 = 1++ + 5;
-2 = 1-- - 3;
-7 = 1-- * 7;
-2 = --1 / 3;
-2 = --1 + 1;
-0 = 1-- - 1;
-alert(num);  // 
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
+alert(num);
+
 
 // задание 8
 let age = prompt("Сколько вам лет?");
@@ -49,10 +50,10 @@ const user = {
 
 
 //задание 9,1
-user.cityofresidence = true;
+user.cityofresidence = "Moscow";
 
 // задание 9,2
-user.language = new_value;
+user.age = 45;
 
 // задание 9,3
 delete user.cityofresidence
