@@ -1,0 +1,27 @@
+@media (max-width: 425px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .top_title {
+    grid-column: 1/-1;
+    width: 343px;
+    font-size: 32px;
+    text-align: center;
+  }
+  .top_title_text {
+    width: 343px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .game_content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .game_content_item {
+    grid-column: 1/-1;
+    width: 343px;
+  }
+}/*# sourceMappingURL=_mobile.css.map */
