@@ -14,7 +14,7 @@ body {
 
 .top {
   height: 1024px;
-  background-image: url(imgHW1/top.jpg);
+  background-image: url(imgHW/top.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
 }
 
 .game-box {
-  background-image: url(imgHW1/gamebox.jpg);
+  background-image: url(imgHW/gamebox.jpg);
 }
 
 .game_content {
